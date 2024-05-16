@@ -18,7 +18,7 @@ public class CliCommand {
   }
 
   @ShellMethod(key = "check")
-  public String check(@ShellOption(help = "World to be checked") String word) {
+  public String check(@ShellOption(help = "Word to be checked") String word) {
     return textFilter.maybeContain(word)
         ? String.format("Might contain '%s'", word)
         : String.format("Definitely not contain '%s'", word);
