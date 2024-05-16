@@ -5,6 +5,8 @@
 
 ## Getting Started
 
+![demo](demo.gif)
+
 ```shell
 shell:>help
 
